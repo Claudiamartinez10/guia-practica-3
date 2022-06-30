@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ejercicio 3</title>
+</head>
+
+<body>
+    <header>
+        <h1>MI FORMULARIO NUMERO 3</h1>
+    </header>
+    <main>
+        <section>
+            <details>
+                <summary>Ejercicio 3</summary>
+                <form action="">
+                <table width="100">
+                    <caption style="background: rgba(0, 255, 0, 0.369);">Registro trabajadores</caption>
+                    <tr>
+                        <td>Rut:</td>
+                        <td><input type="text" placeholder="Sin puntos ni guion" required /></td>
+                    </tr>
+                    <tr>
+                        <td>Nombre:</td>
+                        <td><input type="text" placeholder="nombre" required /></td>
+                    </tr>
+                    <tr>
+                        <td>Apellido Paterno:</td>
+                        <td><input type="text" placeholder="apellido paterno" required /></td>
+                    </tr>
+                    <tr>
+                        <td>Apellido Materno:</td>
+                        <td><input type="text" placeholder="Apellido materno" required /></td>
+                    </tr>
+                    <tr>
+                        <td><label for="sexo">Sexo:</label></td>
+                        <td><input type="radio" name="sexo" value="Masculino" /> Masculino
+                            <input type="radio" name="sexo" value="femenino" /> Femenino
+                        </td>
+                    </tr>
+                    <tr>
+                        <td><label for="">Nivel de estudio :</label></td>
+                        <td>
+                            <input type="checkbox" name="no tiene" value="" /> No tiene<br />
+                            <input type="checkbox" name="tecnico" value="" /> tecnico<br />
+                            <input type="checkbox" name="universitario" value="" /> Universidad
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>Ciudad de nacimiento:</td>
+                        <td><select name="Roncagua" id="">
+                                <option value="">Roncagua</option>
+                            </select></td>
+                    </tr>
+                    <tr>
+                        <td>Curriculum</td>
+                        <td><input type="file"></td>
+                    </tr>
+                    <tr>
+                        <td>Foto</td>
+                        <td><input type="file"></td>
+                    </tr>
+                    <tr style="background: rgba(0, 255, 0, 0.369);text-align: center;">
+                        <td colspan="2"><button type="submit">Registrar trabajador</button></td>
+                    </tr>
+                </form>
+                </table>
+            </details>
+        </section>
+    </main>
+</body>
+
+</html>
